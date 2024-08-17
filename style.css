@@ -55,7 +55,7 @@ h1 {
 }
 
 .text2 {
-  text-shadow: 2px 2px #444444cb;
+  text-shadow: 2px 2px #444;
   color: #efeff1;
   background-color: #aaaaaa62;
 }
@@ -135,7 +135,7 @@ h1 {
 .gallery-container a {
   display: block;
   width: 100%;
-  max-width: 200px; /* Cambia el tamaño según tus necesidades */
+  max-width: 150px; /* Cambia el tamaño según tus necesidades */
   overflow: hidden;
 }
 
@@ -149,7 +149,7 @@ h1 {
 .gallery-container img:hover {
   transform: scale(1.05);
 }
-
+/*-----------hero--------------*/
 .showcase-area {
   height: 50vh;
   background: linear-gradient(
@@ -170,12 +170,12 @@ h1 {
   height: 100%;
   font-size: 1.6rem;
 }
-/*
+
 .main-title {
   text-transform: uppercase;
   margin-top: 1.5em;
 }
-*/
+
 /* ......//about us//...... */
 
 #about {
