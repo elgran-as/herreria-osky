@@ -76,7 +76,7 @@ h1 {
   background: #fff;
   color: #000;
   opacity: 0.85;
-  height: 50px;
+  height: 65px;
   z-index: 12;
 }
 
@@ -111,13 +111,22 @@ h1 {
   transition: color 0.3s ease-in-out;
 }
 
+
 .logo {
-  order: 1;
-  font-size: 2.3rem;
-  margin-bottom: 0.5rem;
-  height: 50%;
-  width: 10%;
+  max-width: 70px;
+  width: 14vw;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  border-radius: 50% / 60%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 8px 12px; /* Espacio alrededor del logo */
+  
 }
+
 
 /* ............//// Showcase styling ////......... */
 /* Estilos para la galería */
@@ -134,14 +143,17 @@ h1 {
 
 .gallery-container a {
   display: block;
-  width: 100%;
-  max-width: 150px; /* Cambia el tamaño según tus necesidades */
+  width: 150px;
+  height: 150px;
   overflow: hidden;
+  border-radius: 16px; /* Opcional: bordes redondeados */
+  background: #eee;    /* Opcional: color de fondo si la imagen no carga */
 }
 
 .gallery-container img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
   transition: transform 0.3s ease;
 }
@@ -151,7 +163,7 @@ h1 {
 }
 /*-----------hero--------------*/
 .showcase-area {
-  height: 50vh;
+  height: 45vh;
   background: linear-gradient(
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
@@ -506,7 +518,7 @@ h1 {
   .navbar-container {
     display: block;
     position: relative;
-    height: 64px;
+    height: 40px;
   }
 
   .navbar-container input[type="checkbox"] {
